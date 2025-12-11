@@ -10,7 +10,7 @@ export function Uncontrolled () {
     const submit = () => {
         setInput(inputRef.current.value);
          inputRef.current.value = "";
-        //  inputRef.current.focus();
+         inputRef.current.focus();
     }
 
     return (
